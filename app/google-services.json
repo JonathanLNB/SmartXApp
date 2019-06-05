@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "709695472406",
+    "firebase_url": "https://smartx-42716.firebaseio.com",
+    "project_id": "smartx-42716",
+    "storage_bucket": "smartx-42716.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:709695472406:android:d742f2fc7f7d311b",
+        "android_client_info": {
+          "package_name": "com.lynxes.jonathanlnb.smartx"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "709695472406-9dq0ie2tad5i119dgehur3s77hqrmiq5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.lynxes.jonathanlnb.smartx",
+            "certificate_hash": "0ee92e0146da209ceca18ac3bf5bbbbb07515c0b"
+          }
+        },
+        {
+          "client_id": "709695472406-jg7tneoug7dmrca6316m838to1geldhr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyApabLaA8OeK8CG__u_0zqPtX7gRv7a2FA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "709695472406-jg7tneoug7dmrca6316m838to1geldhr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

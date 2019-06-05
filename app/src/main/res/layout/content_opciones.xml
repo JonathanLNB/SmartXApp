@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/lOpcion"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp">
+    <ImageView
+        android:id="@+id/iIcono"
+        android:layout_width="30dp"
+        android:layout_height="20dp"
+        android:layout_margin="5dp"
+        android:layout_centerVertical="true" />
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="20dp"
+        android:src="@drawable/chevron_right"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+    <TextView
+        android:id="@+id/vTexto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimary"
+        android:textSize="16sp"
+
+        android:layout_toRightOf="@+id/iIcono"
+        android:layout_centerVertical="true"
+        android:layout_toEndOf="@+id/iIcono" />
+
+    <View
+        android:id="@+id/vLinea"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#AA454545"
+        android:layout_below="@id/vTexto"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="40dp"/>
+</RelativeLayout>
